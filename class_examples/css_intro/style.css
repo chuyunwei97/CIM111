@@ -1,0 +1,16 @@
+h1 {
+  font-size: 40px;
+  color: goldenrod;
+  font-weight: 300;
+}
+
+p {
+  font-size: 150%;
+  color: #BADA55;
+  background-color: blue;
+  font-weight: 100;
+}
+
+strong, b {
+  font-weight: 900;
+}
