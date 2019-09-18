@@ -1,14 +1,79 @@
+heml,body
+{
+  background-color: white;
+  color: black; /* #FFF or #FFFFF */
+}
+
+/* select the section with id="centered" */
+section#centered, #centered
+{
+  /* set the width of this selection to be 600px */
+  width: 600px;
+  /*max-width:none;
+  min-width:inherit;*/
+  /* set the margin to be 0 on the top and bottom, and auto on left & right */
+  margin: 0 auto; /* this is for the section to be centered */  /* top and bottom & left and right */
+  /* margin: 0 auto 0 auto; */ /* the same as line15, but the order is top, right, bottom,left */
+  border: 1px solid green;
+}
+
+/*
+
+#email{
+  text-decoration: none;
+}
+
+a{
+text-decoration:none;
+}
+
+a:visited{
+text-decoration:none;
+color:red;
+}
+
+a:hover{
+background-color:black;
+color:yellow;
+}
+
+love
+a:link, a:visted{
+
+}
+
+hate
+a:hover, a:active{
+
+}
+
+
+section#contact_info h2{
+color:blue;
+font-size:
+}
+
+body header h1{
+
+}
+
+*/
+
 h1 {
   font-size: 40px;
-  color: goldenrod;
+  /*color: goldenrod;*/
   font-weight: 300;
 }
 
 p {
   font-size: 150%;
-  color: #BADA55;
-  background-color: blue;
+  /*color: #BADA55;
+  background-color: blue;*/
   font-weight: 100;
+  width: 400px;
+  /*float:right;
+  display: inline-block;*/
+  text-align: center;
 }
 
 strong, b {
