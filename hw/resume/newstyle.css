@@ -1,0 +1,17 @@
+#moreinfo:visited{
+color:#F4A261;
+}
+
+#moreinfo{
+text-decoration:none;
+font-family: 'Dancing Script', cursive;
+}
+
+#morework:hover{
+background-color:#F4A261;
+color:white;
+}
+
+#intro{
+  font-family: 'Poppins', sans-serif;
+}
