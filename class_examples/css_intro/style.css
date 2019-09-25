@@ -4,6 +4,7 @@ heml,body
   color: black; /* #FFF or #FFFFF */
 }
 
+
 /* select the section with id="centered" */
 section#centered, #centered
 {
@@ -78,4 +79,31 @@ p {
 
 strong, b {
   font-weight: 900;
+}
+
+
+
+
+
+#thisParagraphRocks{
+  font-family: monospace;
+}
+
+.some_paragraph{
+  background-color: red;
+  font-size: 40px;
+}
+
+.dominguez{
+  color:blue;
+  font-weight: 900;
+}
+
+p{
+  margin-bottom: 20%;
+}
+
+img#headshot{
+  display: inline;
+  width:300px;
 }
