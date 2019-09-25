@@ -1,0 +1,41 @@
+/* 这个符号“*”将应用于所有 */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 21px;
+    line-height: 1.7;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: pink;
+    /* margin: 0; */
+}
+
+main{
+    background-color: yellow;
+    width: 90vw;
+    height: 50vh;
+    padding-top: 20px;
+    /* margin: 0; */
+}
+
+/* pick the tag has this class with the name, pick the specific class */
+article.my_box, .my_box{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+h1{
+    background-color: #f9423a;
+    width: 20vw;
+    height: 20vh;
+    margin: auto;
+    border: 10px solid #bada66;
+    border-radius: 30px;
+    text-align: inherit;
+}
