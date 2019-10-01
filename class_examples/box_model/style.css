@@ -18,7 +18,7 @@ body{
 main{
     background-color: yellow;
     width: 90vw;
-    height: 50vh;
+    /* height: 50vh; */
     padding-top: 20px;
     /* margin: 0; */
 }
@@ -38,4 +38,8 @@ h1{
     border: 10px solid #bada66;
     border-radius: 30px;
     text-align: inherit;
+}
+
+p{
+    padding: 20px;
 }

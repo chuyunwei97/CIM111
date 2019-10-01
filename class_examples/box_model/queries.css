@@ -1,0 +1,43 @@
+@media only screen and (max-width: 800px) {
+/* all the styling for when the screen is 800px or smaller. */
+
+}
+
+@media only screen and (min-width: 1200px){
+/* all the styling for when the screen is 1200px or wider. */
+}
+
+@media only screen and (min-width: 600px) and (max-width: 700px) {
+    body{
+        background-color: black;
+    }
+    main{
+        background-color: black;
+    }
+    h1{
+        background-color: black;
+        border: black;
+    }
+    /*
+    body, main, h1{
+        background-color: black;
+        border: black;
+        color: black;
+    }
+    */
+
+    /*
+    In math, in algerbra you did inequalities
+
+    >, <, =
+
+    max-width ==> check the width, and do [xxxx]
+    if width < max-width value
+
+    min-width ==> check the width and do [YYYY]
+    if width > min-width value
+
+    min-width & max-width ==> check the width, and do [ZZZZ]
+    if min-width < width < max-width
+    */
+}
