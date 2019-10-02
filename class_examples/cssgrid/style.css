@@ -1,0 +1,44 @@
+html{
+    font-size: 21px;
+    line-height: 1.7;
+    font-style: sans-serif;
+}
+
+.grid_container{
+    display: grid;
+    grid-template-areas:
+        "yellow .red"
+        "yellow . red"
+        /* "yellow yellow ."    /* "." means empty area */
+        "blue blue blue";
+    grid-gap: 1rem;
+    /* grid-row-gap: 10px;
+    /* grid-gap: 20rem;   " rem means proportion font size. " */
+    /* 1rem = 21px; */
+}
+
+/* body{
+    font-size: 1.6rem;
+} */
+
+.box{
+    border: 1px solid #000000;
+    font-family: monospace;
+    min-height: 300px;
+}
+
+.yellow{
+    grid-area: yellow; /* name of the box */
+    background-color: yellow;
+
+}
+
+.red{
+    grid-area: red; /* name of the box */
+    background-color: red;
+}
+
+.blue{
+    grid-area: blue; /* name of the box */
+    background-color: cyan;
+}
