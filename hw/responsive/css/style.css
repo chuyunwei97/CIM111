@@ -72,6 +72,14 @@ header a:hover{
 
 
 
+
+
+.container001{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
 .box{
   float:left;
   text-align: center;
@@ -89,70 +97,12 @@ header a:hover{
 
 
 
-.gridContainer01{
-    display: grid;
-    grid-template-areas:
-        "text01 . pic01"
-}
 
 #titleHistory{
     max-width: 270px;
     margin-top: 5%;
 }
 
-.box01{
-    margin: 0 85px 15px 125px;
-    max-width: 500px;
-}
-
-.box01 h3{
-    margin: 5px 0 -10px 0;
-    font-size: 20px;
-}
-
-.box01 p{
-    text-align: justify;
-}
-
-.box02{
-    margin: 0 10px 15px 0;
-}
-
-.box02 img{
-    max-width: 40%;
-    margin: 6% 3% 0 0;
-}
-
-
-.gridContainer02{
-  display: grid;
-  grid-template-columns: 49.5% 42%;
-}
-
-.gridContainer02 > div {
-  background-color: rgba(30%, 30%);
-  padding: 10px 0;
-}
-
-.item4{
-    text-align: justify;
-    margin-top: -8%;
-}
-
-.item2 h3{
-    font-size: 20px;
-}
-
-.item2{
-    text-align: right;
-
-}
-
-.item3 img{
-    margin-left: 18%;
-    max-width: 70%;
-    margin-top: -4%;
-}
 
 
 
@@ -161,42 +111,23 @@ header a:hover{
     margin-top: 5%;
 }
 
-.gridContainer03 {
-    display: grid;
-    grid-column-gap: 2%;
-    grid-template-columns: 10% 25% 25% 25%;
-    background-color: #fff;
-    color: #444;
-    margin: 2.5% 0 5% 0;
+
+
+
+#titleProcess{
+    max-width: 270px;
+    margin-top: 5%;
 }
 
-.type {
-    border-radius: 5px;
-    padding: 10px;
-    text-align: center;
+
+
+
+#titleEffects{
+    max-width: 270px;
+    margin-top: 5%;
 }
 
-.type img{
-    max-width: 100%;
-}
 
-.a {
-    grid-column: 1 ;
-    grid-row: 1 / span 1;
-}
-
-.c {
-    grid-column: 2 ;
-    grid-row: 1;
-}
-.d {
-    grid-column: 3 ;
-    grid-row: 1 ;
-}
-.e{
-    grid-column: 4 ;
-    grid-row: 1 ;
-}
 
 
 
@@ -206,30 +137,4 @@ footer{
   color:#ffffff;
   background-color:#5C4742;
   text-align: center;
-}
-
-
-
-@media(max-width: 768px){
-  header #branding,
-  header nav,
-  header nav li,
-  #newsletter h1,
-  #newsletter form,
-  #boxes .box,
-  article#main-col,
-  aside#sidebar{
-    float:none;
-    text-align:center;
-    width:100%;
-  }
-
-  header{
-    padding-bottom:20px;
-  }
-
-  #showcase h1{
-    margin-top:40px;
-  }
-
 }
