@@ -10,14 +10,14 @@ body {
 }
 
 #me {
-  max-width: 150px;
-  max-height: 150px;
+  max-width: 40%;
+  margin-top: 10%;
 }
 
 #section-left {
   width: 30%;
   float: left;
-  height: 100%;
+  height: 95%;
   background-color: #f4a261;
   color: #fff;
   text-align: center;
@@ -32,12 +32,9 @@ body {
 .intro .content {
   margin-bottom: 50px;
 }
+
 #contact {
   margin-top: 50px;
-}
-
-#morework {
-  margin-top: 10px;
 }
 
 #section-right {
@@ -51,7 +48,7 @@ body {
   padding: 2em;
 }
 
-.wrapper .title {
+.title {
   color: #f4a261;
   font-size: 1.3em;
   font-weight: bold;
@@ -61,15 +58,39 @@ body {
 .tableContainer {
   border: 3;
   max-width: 800px;
+  margin-bottom: 13px;
+}
+
+.box {
+  padding: 1%;
+}
+
+.img01 img {
+  max-width: 45%;
+  padding: 2%;
+}
+
+.img03 img {
+  max-width: 29%;
+  padding: 1.8%;
 }
 
 #moreinfo:visited {
   color: #c8553d;
 }
 
+#moreinfo:hover {
+  background-color: #d36e31;
+  color: white;
+}
+
 #moreinfo {
   text-decoration: none;
   font-family: "Vollkorn SC", serif;
+}
+
+#morework {
+  text-decoration: none;
 }
 
 #morework:visited {
