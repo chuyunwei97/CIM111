@@ -30,7 +30,7 @@ header a {
 
 header nav {
   float: center;
-  margin-top: 10px;
+  margin: 0.5% 0 1% 30%;
 }
 
 header a:hover {
@@ -63,7 +63,7 @@ header a:hover {
 
 .gridcontainer01 {
   display: grid;
-  grid-template-columns: 50% 60%;
+  grid-template-columns: 50% 50%;
   background-color: #fff;
   color: #444;
 }
@@ -94,7 +94,8 @@ header a:hover {
 }
 
 .b01 img {
-  max-width: 35%;
+  max-width: 42.5%;
+  padding-right: 1%;
 }
 
 #tagInstructions {
@@ -145,6 +146,37 @@ header a:hover {
   padding: 1%;
 }
 
-.d01 img {
-  max-width: 65%;
+.d02 img {
+  max-width: 48%;
+}
+
+#tagTips {
+  margin: 3% 0 0 8%;
+  font-size: 30px;
+}
+
+.e01 {
+  grid-column: 1;
+  grid-rows: 1;
+  margin-bottom: 8%;
+}
+
+.f01 {
+  grid-column: 2;
+  grid-row: 1;
+  padding: 1%;
+  margin-bottom: 8%;
+}
+
+.f01 img {
+  max-width: 42.5%;
+  padding-right: 1%;
+}
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #d37831;
+  text-align: center;
 }
