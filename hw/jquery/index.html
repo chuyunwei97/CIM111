@@ -24,15 +24,16 @@
 			<section id="showcase">
 				<div class="container">
 					<h1>Cheesecake Recipe</h1>
-					<p>This easy cheesecake recipe truly makes perfect cheesecake every time! Each slice has the creamiest, smoothest cheesecake paired with homemade graham cracker crust. The perfect bite! Plus, I’ve included tons of step-by-step
-						instructions with photos so you can make the best cheesecake every time. This is truly the last cheesecake how-to you’ll ever need!</p>
+					<section id="para">
+
+					</section>
 				</div>
 			</section>
 
 			<h3 id="tagIngredients">Ingredients</h3>
 			<div class="gridcontainer01">
 				<div class="box01 a01">
-					<h4>Crust</h4>
+					<h4 id="of">Crust</h4>
 					<ul>
 						<li>1 3/4 cups Graham Cracker Crumbs (about 15 full crackers)</li>
 						<li>1/3 cup butter, melted</li>
@@ -67,7 +68,9 @@
 					</ol>
 				</div>
 				<div class="box04 d01">
-					<img src="img/gif01.gif" alt="gif01">
+					<img id="gif" src="img/gif01.gif" alt="gif01">
+					<br>
+					<button>Toggle between hide() and show()</button>
 				</div>
 				<div class="box03 c02">
 					<h4>Cheesecake</h4>
@@ -83,7 +86,7 @@
 					</ol>
 				</div>
 				<div class="box04 d02">
-					<img src="img/gif02.gif" alt="gif02">
+					<img id=cc01 src="img/gif02.gif" alt="gif02">
 				</div>
 			</div>
 
@@ -101,8 +104,11 @@
 					</ul>
 				</div>
 				<div class="box02 f01">
-					<img src="img/pic01.jpg" alt="pic01">
+					<img id="hide01" src="img/pic01.jpg" alt="pic01">
 					<img src="img/pic04.jpg" alt="pic04">
+					<br>
+					<button id="hide">Hide</button>
+					<button id="show">Show</button>
 				</div>
 			</div>
 
@@ -111,6 +117,50 @@
 			</footer>
 
 		</main>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<script type="text/javascript">
+			var cc01Clicked = false;
+			$(document).ready(function() {
+				$("#cc01").click(function() {
+					if (cc01Clicked === true) {
+						// cc01Clicked is zero. We have to make the pic small.
+						$("#cc01").css("width", "50%");
+						cc01Clicked = false;
+					} else {
+						// cc01Clicked is zero. We have to make the pic big.
+						$("#cc01").css("width", "30%");
+						cc01Clicked = true;
+					}
+
+				});
+
+				$("#hide").click(function() {
+					$("#hide01").hide();
+				});
+				$("#show").click(function() {
+					$("#hide01").show();
+				});
+
+				$("#of").mouseover(function() {
+					$("#of").css("background-color", "yellow");
+				});
+				$("#of").mouseleave(function() {
+					$("#of").css("background-color", "lightgray");
+				});
+
+				$("button").click(function() {
+					$("#gif").toggle();
+				});
+
+				$("#para").html(
+					"<p>This easy cheesecake recipe truly makes perfect cheesecake every time! Each slice has the creamiest, smoothest cheesecake paired with homemade graham cracker crust.The perfect bite! Plus, I’ve included tons of step-by-step instructions with photos so you can make the best cheesecake every time.This is truly the last cheesecake how - to you’ ll ever need! </p>"
+				);
+			});
+
+		</script>
+
 	</body>
 
 </html>
