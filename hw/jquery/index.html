@@ -70,7 +70,7 @@
 				<div class="box04 d01">
 					<img id="gif" src="img/gif01.gif" alt="gif01">
 					<br>
-					<button>Toggle between hide() and show()</button>
+					<button id="toggle">Toggle between hide() and show()</button>
 				</div>
 				<div class="box03 c02">
 					<h4>Cheesecake</h4>
@@ -150,7 +150,7 @@
 					$("#of").css("background-color", "lightgray");
 				});
 
-				$("button").click(function() {
+				$("#toggle").click(function() {
 					$("#gif").toggle();
 				});
 
