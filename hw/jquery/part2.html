@@ -7,6 +7,13 @@
 		<meta name="description" content="How to make cheesecake">
 		<title>How to make cheesecake</title>
 		<link rel="stylesheet" href="css/style.css">
+
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+		<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+		<script src="js/jquery.lettering-0.6.1.min.js" charset="utf-8"></script>
 	</head>
 
 	<body>
@@ -42,7 +49,7 @@
 					</ul>
 				</div>
 				<div class="box01 a02">
-					<h4>Cheesecake</h4>
+					<h4 id="break">Cheesecake</h4>
 					<ul>
 						<li>4 (8 ounce) packages Cream Cheese, room temperature</li>
 						<li>1 cup granulated sugar</li>
@@ -52,7 +59,9 @@
 					</ul>
 				</div>
 				<div class="box02 b01">
-					<img src="img/pic02.jpg" alt="pic02">
+					<a data-fancybox="gallery" href="img/pic02.jpg">
+						<img src="img/pic02.jpg" alt="pic02" id="pic02" class="image"></a>
+					<!-- <img src="img/pic02.jpg" alt="pic02"> -->
 					<img src="img/pic03.jpg" alt="pic03">
 				</div>
 			</div>
@@ -118,7 +127,7 @@
 
 		</main>
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
 
 		<script type="text/javascript">
 			var cc01Clicked = false;
@@ -157,6 +166,9 @@
 				$("#para").html(
 					"<p>This easy cheesecake recipe truly makes perfect cheesecake every time! Each slice has the creamiest, smoothest cheesecake paired with homemade graham cracker crust.The perfect bite! Plus, I’ve included tons of step-by-step instructions with photos so you can make the best cheesecake every time.This is truly the last cheesecake how - to you’ ll ever need! </p>"
 				);
+
+				$("#break").lettering();
+
 			});
 
 		</script>
