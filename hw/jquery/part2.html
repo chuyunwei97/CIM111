@@ -13,6 +13,10 @@
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 		<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
+		<!-- <script src="js/jquery.vide.min.js"></script> -->
+
+		<script src="js/masonry.pkgd.min.js"></script>
+
 		<script src="js/jquery.lettering-0.6.1.min.js" charset="utf-8"></script>
 	</head>
 
@@ -121,6 +125,38 @@
 				</div>
 			</div>
 
+			<h3 id="display">Display</h3>
+			<div class="grid">
+				<div class="grid-item limitA">
+					<img src="img/C01.jpg" alt="C01">
+				</div>
+				<div class="grid-item grid-item--width2 grid-item--height2">
+					<img src="img/C02.jpg" alt="C02">
+				</div>
+				<div class="grid-item grid-item--height3">
+					<img src="img/C04.jpg" alt="C04">
+				</div>
+				<div class="grid-item grid-item--height2">
+					<img src="img/C05.jpg" alt="C05">
+				</div>
+				<div class="grid-item grid-item--width3">
+					<img src="img/C06.jpg" alt="C06">
+				</div>
+				<div class="grid-item limitA">
+					<img src="img/C07.jpg" alt="C07">
+				</div>
+				<div class="grid-item grid-item--height2">
+					<img src="img/C09.jpg" alt="C09">
+				</div>
+				<div class="grid-item limitA">
+					<img src="img/C08.jpg" alt="C08">
+				</div>
+				<div class="grid-item grid-item--width2 grid-item--height2">
+					<img src="img/C03.jpg" alt="C03">
+				</div>
+
+			</div>
+
 			<footer>
 				<p>Website Exercise, Copyright &copy; 2019</p>
 			</footer>
@@ -168,6 +204,13 @@
 				);
 
 				$("#break").lettering();
+
+				// external js: masonry.pkgd.js
+
+				$('.grid').masonry({
+					itemSelector: '.grid-item',
+					columnWidth: 160
+				});
 
 			});
 
