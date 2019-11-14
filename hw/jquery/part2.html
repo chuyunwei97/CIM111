@@ -86,7 +86,7 @@
 					<button id="toggle">Toggle between hide() and show()</button>
 				</div>
 				<div class="box03 c02">
-					<h4>Cheesecake</h4>
+					<h4 id="break02">Cheesecake</h4>
 					<ol>
 						<li>In the bowl of your stand mixer fitted with the paddle attachment, mix the cream cheese and sugar on medium speed, until smooth, scraping the sides of the bowl as necessary.</li>
 						<li>Turn the mixer to low and add the sour cream and vanilla; mix well, scraping sides of the bowl as necessary. Add the eggs, 1 at a time, mixing on low speed after each addition just until mixed. Don’t over mix. Pour the
@@ -117,7 +117,9 @@
 					</ul>
 				</div>
 				<div class="box02 f01">
-					<img id="hide01" src="img/pic01.jpg" alt="pic01">
+					<!-- <img id="hide01" src="img/pic01.jpg" alt="pic01"> -->
+					<a data-fancybox="gallery" href="img/pic01.jpg">
+						<img id="hide01" src="img/pic01.jpg" alt="pic01" id="pic01" class="image"></a>
 					<img src="img/pic04.jpg" alt="pic04">
 					<br>
 					<button id="hide">Hide</button>
@@ -204,6 +206,8 @@
 				);
 
 				$("#break").lettering();
+
+				$("#break02").lettering();
 
 				// external js: masonry.pkgd.js
 
