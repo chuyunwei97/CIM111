@@ -7,3 +7,228 @@ ol {
   width: 400px;
   margin: 0 auto;
 }
+
+/* this command will not be change no matter the size is */
+/* body{
+    font-size: 24px;
+} */
+
+/* will change according to the size */
+@media only screen and (max-width: 376px) {
+  header img {
+    margin-left: 80%;
+  }
+
+  header nav {
+    margin-bottom: -10%;
+    margin-top: 0;
+    padding-bottom: 15%;
+    text-align: justify;
+  }
+
+  .container001 {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .box {
+    float: left;
+    text-align: center;
+    width: 80%;
+    padding: 10px;
+    margin-right: 10%;
+    margin-left: 8%;
+  }
+
+  .box img {
+    width: 100px;
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-left: 8%;
+  }
+
+  .gridContainer01 {
+    display: grid;
+    grid-template-rows: 30% 30%;
+  }
+
+  .text01 {
+    grid-column: 1;
+    grid-row: 1;
+    margin: 3% 7% 2% 6%;
+    text-align: justify;
+  }
+
+  .pic01 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  #C01 {
+    max-width: 42.5%;
+    margin: 0 2.5% 2% 6%;
+  }
+
+  #C02 {
+    max-width: 42.5%;
+    margin: 0 5% 2% 0%;
+  }
+
+  .gridContainer02 {
+    display: grid;
+    grid-template-rows: 60% 60% 60%;
+  }
+
+  .item2 {
+    grid-column: 1;
+    grid-row: 1;
+    text-align: left;
+    margin: 5% 0 0 6%;
+  }
+
+  .item3 {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .item3 img {
+    max-width: 88%;
+    margin: 0 0 13% 6%;
+  }
+
+  .item4 {
+    grid-column: 1;
+    grid-row: 2;
+    margin: -6% 6% 0 6%;
+    text-align: justify;
+  }
+
+  .gridContainer03 {
+    display: grid;
+    grid-column-gap: 2%;
+    grid-template-rows: 30% 30% 30%;
+    background-color: #fff;
+    color: #444;
+  }
+
+  .type {
+    border-radius: 5px;
+    padding: 10px;
+    text-align: justify;
+    margin: 0 5% 0 3%;
+  }
+
+  .type h3 {
+    text-align: center;
+  }
+
+  .type img {
+    max-width: 100%;
+    margin-left: 1%;
+  }
+
+  .c {
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 5%;
+  }
+  .d {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .e {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .gridContainer04 {
+    display: grid;
+    grid-column-gap: 2%;
+    grid-template-rows: 30% 30% 30% 30%;
+    background-color: #fff;
+    color: #444;
+  }
+
+  .same {
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .same img {
+    max-width: 100%;
+  }
+
+  .bb {
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 5%;
+  }
+
+  .cc {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .dd {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .ee {
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+  .gridContainer05 {
+    display: grid;
+    grid-template-rows: 30% 30% 30% 30% 30% 30%;
+    background-color: #fff;
+    color: #444;
+  }
+
+  .other {
+    border-radius: 5px;
+    padding: 10px;
+    text-align: justify;
+    margin-right: 7%;
+  }
+
+  .other img {
+    max-width: 60%;
+    padding-left: 26%;
+  }
+
+  .bbb {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .ccc {
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+  .ddd {
+    grid-column: 1;
+    grid-row: 6;
+  }
+
+  .eee {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .fff {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .ggg {
+    grid-column: 1;
+    grid-row: 5;
+  }
+}
