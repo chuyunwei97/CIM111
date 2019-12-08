@@ -89,6 +89,16 @@ header a:hover {
   font-size: 30px;
 }
 
+#tagHours {
+  margin: 10% 0 0 0;
+  font-size: 30px;
+}
+
+#tagTickets {
+  margin: 10% 0 0 0;
+  font-size: 30px;
+}
+
 .gridcontainer01 {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -138,6 +148,43 @@ header a:hover {
 .b02 img {
   max-width: 87%;
   padding-right: 1%;
+}
+
+.a03 {
+  grid-column: 2;
+  grid-rows: 1;
+}
+
+.b03 {
+  grid-column: 1;
+  grid-row: 2;
+  margin: 3% 0 0 18%;
+}
+
+.b03 img {
+  max-width: 82%;
+}
+
+.b04 {
+  grid-column: 2;
+  grid-row: 2;
+  margin: 3% 0 0 18%;
+}
+
+.b04 img {
+  max-width: 82%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
 }
 
 #logo {
