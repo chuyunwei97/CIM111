@@ -79,6 +79,46 @@ header a:hover {
   padding-left: 15%;
 }
 
+#exhibitions {
+  min-height: 400px;
+  background: url("../img/exhibitions.jpg");
+  color: #ffffff;
+}
+
+#exhibitions h1 {
+  margin-top: 65px;
+  font-size: 85px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#exhibitions p {
+  font-size: 20px;
+  text-align: center;
+  max-width: 800px;
+  padding-left: 15%;
+}
+
+#collections {
+  min-height: 400px;
+  background: url("../img/pic04.jpg");
+  color: #ffffff;
+}
+
+#collections h1 {
+  margin-top: 65px;
+  font-size: 85px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#collections p {
+  font-size: 20px;
+  text-align: center;
+  max-width: 800px;
+  padding-left: 15%;
+}
+
 #tagAbout {
   margin: 5% 0 0 8%;
   font-size: 30px;
@@ -96,6 +136,21 @@ header a:hover {
 
 #tagTickets {
   margin: 10% 0 0 0;
+  font-size: 30px;
+}
+
+#tagCurrent {
+  margin: 5% 0 2% 10%;
+  font-size: 30px;
+}
+
+#tagUpcoming {
+  margin: 5% 0 2% 10%;
+  font-size: 30px;
+}
+
+#tagPrevious {
+  margin: 5% 0 2% 10%;
   font-size: 30px;
 }
 
@@ -185,6 +240,74 @@ th,
 td {
   border: 1px solid black;
   text-align: center;
+}
+
+#buyTickets:visited {
+  color: #c8553d;
+}
+
+#buyTickets:hover {
+  background-color: #d36e31;
+  color: white;
+}
+
+#buyTickets {
+  text-decoration: none;
+}
+
+#details {
+  font-family: "Vollkorn SC", serif;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 40% 50%;
+  color: black;
+}
+
+.box {
+  color: black;
+  margin-left: 25%;
+  text-align: justify;
+}
+
+.box h4 {
+  font-size: 18px;
+}
+
+.a img {
+  max-width: 100%;
+}
+
+.c img {
+  max-width: 100%;
+}
+
+.e img {
+  max-width: 100%;
+}
+
+.containerX {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  color: black;
+  margin-top: 6%;
+}
+
+.boxX {
+  color: black;
+  margin-left: 25%;
+  margin-bottom: 12%;
+  text-align: justify;
+}
+
+.boxX h4 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.boxX img {
+  max-width: 100%;
 }
 
 #logo {
