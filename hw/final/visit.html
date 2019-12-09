@@ -96,10 +96,16 @@
 					<p>*Free admission for disabled visitors.</p>
 				</div>
 				<div class="b03">
-					<img src="img/pic05.jpg" alt="pic05">
+					<img id="hide01" src="img/pic05.jpg" alt="pic05">
+					<br>
+					<button id="hideX1">Hide</button>
+					<button id="showX1">Show</button>
 				</div>
 				<div class="b04">
-					<img src="img/pic06.jpg" alt="pic06">
+					<img id="hide02" src="img/pic06.jpg" alt="pic06">
+					<br>
+					<button id="hideX2">Hide</button>
+					<button id="showX2">Show</button>
 				</div>
 			</div>
 
@@ -113,6 +119,44 @@
 			</footer>
 
 		</main>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+
+				$("#hideX1").click(function() {
+					$("#hide01").hide();
+				});
+				$("#showX1").click(function() {
+					$("#hide01").show();
+				});
+
+				$("#hideX2").click(function() {
+					$("#hide02").hide();
+				});
+				$("#showX2").click(function() {
+					$("#hide02").show();
+				});
+
+				$("#tagTickets").mouseover(function() {
+					$("#tagTickets").css("color", "brown");
+				});
+				$("#tagTickets").mouseleave(function() {
+					$("#tagTickets").css("color", "black");
+				});
+
+				$("#tagHours").mouseover(function() {
+					$("#tagHours").css("color", "brown");
+				});
+				$("#tagHours").mouseleave(function() {
+					$("#tagHours").css("color", "black");
+				});
+
+			});
+
+		</script>
+
 	</body>
 
 </html>

@@ -79,7 +79,7 @@
 						artifacts of different types. The laboratories are: Historical Architecture Conservation Lab, Basic Analysis Lab, and Computed Tomography Lab.</p>
 				</div>
 				<div class="box02 b02">
-					<img src="img/pic03.jpg" alt="pic03">
+					<img id="cc01" src="img/pic03.jpg" alt="pic03">
 				</div>
 			</div>
 			<br>
@@ -92,6 +92,43 @@
 			</footer>
 
 		</main>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<script type="text/javascript">
+			var cc01Clicked = false;
+			$(document).ready(function() {
+				$("#cc01").click(function() {
+					if (cc01Clicked === true) {
+						// cc01Clicked is zero. We have to make the pic small.
+						$("#cc01").css("width", "87%");
+						cc01Clicked = false;
+					} else {
+						// cc01Clicked is zero. We have to make the pic big.
+						$("#cc01").css("width", "40%");
+						cc01Clicked = true;
+					}
+
+				});
+
+				$("#tagAbout").mouseover(function() {
+					$("#tagAbout").css("color", "brown");
+				});
+				$("#tagAbout").mouseleave(function() {
+					$("#tagAbout").css("color", "black");
+				});
+
+				$("#tagAcademics").mouseover(function() {
+					$("#tagAcademics").css("color", "brown");
+				});
+				$("#tagAcademics").mouseleave(function() {
+					$("#tagAcademics").css("color", "black");
+				});
+
+			});
+
+		</script>
+
 	</body>
 
 </html>

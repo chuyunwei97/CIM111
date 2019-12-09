@@ -47,11 +47,13 @@
 			<h3 id="tagCurrent">Current Exhibitions</h3>
 			<div class="wrapper">
 				<div class="box a">
-					<img src="img/pic07.jpg" alt="pic07">
+					<img id="pic07" src="img/pic07.jpg" alt="pic07">
+					<br>
+					<button id="toggle07">Toggle between hide() and show()</button>
 				</div>
 
 				<div class="box b">
-					<h4>Lingering Voice of the Sages: The Culture of Qin</h4>
+					<h4 id="h401">Lingering Voice of the Sages: The Culture of Qin</h4>
 					<ul>
 						<li>Palace of Accumulated Purity (Zhongcui gong)</li>
 						<li>Dates: 2019-11-29 through ~</li>
@@ -65,11 +67,13 @@
 			<h3 id="tagUpcoming">Upcoming Exhibitions</h3>
 			<div class="wrapper">
 				<div class="box c">
-					<img src="img/pic08.jpg" alt="pic08">
+					<img id="pic08" src="img/pic08.jpg" alt="pic08">
+					<br>
+					<button id="toggle08">Toggle between hide() and show()</button>
 				</div>
 
 				<div class="box d">
-					<h4>The Fortune and Longevity of Sumeru: An Encounter between the Tashi Lhunpo Monastery and the Palace Museum</h4>
+					<h4 id="h402">The Fortune and Longevity of Sumeru: An Encounter between the Tashi Lhunpo Monastery and the Palace Museum</h4>
 					<ul>
 						<li>Meridian Gate (Wu men)</li>
 						<li>Dates: 2019-12-20 through 2020-02-29</li>
@@ -83,11 +87,13 @@
 			<h3 id="tagPrevious">Previous Exhibitions</h3>
 			<div class="wrapper">
 				<div class="box e">
-					<img src="img/pic09.jpg" alt="pic09">
+					<img id="pic09" src="img/pic09.jpg" alt="pic09">
+					<br>
+					<button id="toggle09">Toggle between hide() and show()</button>
 				</div>
 
 				<div class="box f">
-					<h4>Miracle of Chinese Culture: History and Culture of Yunju Temple</h4>
+					<h4 id="h403">Miracle of Chinese Culture: History and Culture of Yunju Temple</h4>
 					<ul>
 						<li>Southeast Corner Gallery inside the Gate of Supreme Harmony</li>
 						<li>Dates: 2019-09-10 through 2019-10-19</li>
@@ -108,6 +114,49 @@
 			</footer>
 
 		</main>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+
+				$("#h401").mouseover(function() {
+					$("#h401").css("background-color", "orange");
+				});
+				$("#h401").mouseleave(function() {
+					$("#h401").css("background-color", "white");
+				});
+
+				$("#h402").mouseover(function() {
+					$("#h402").css("background-color", "orange");
+				});
+				$("#h402").mouseleave(function() {
+					$("#h402").css("background-color", "white");
+				});
+
+				$("#h403").mouseover(function() {
+					$("#h403").css("background-color", "orange");
+				});
+				$("#h403").mouseleave(function() {
+					$("#h403").css("background-color", "white");
+				});
+
+				$("#toggle07").click(function() {
+					$("#pic07").toggle();
+				});
+
+				$("#toggle08").click(function() {
+					$("#pic08").toggle();
+				});
+
+				$("#toggle09").click(function() {
+					$("#pic09").toggle();
+				});
+
+			});
+
+		</script>
+
 	</body>
 
 </html>
