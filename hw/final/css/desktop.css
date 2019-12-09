@@ -1,4 +1,4 @@
-@media only screen and (max-width: 376px) {
+@media only screen and (min-width: 377px) {
   body {
     font: 15px/1.5 Arial;
     padding: 0;
@@ -16,7 +16,6 @@
     background: #780116;
     color: #ffffff;
     padding-top: 15px;
-    padding-bottom: 15px;
     min-height: 50px;
     border-bottom: #ffffff 5px solid;
   }
@@ -26,14 +25,14 @@
     text-decoration: none;
     text-transform: uppercase;
     font-size: 18px;
-    padding: 0 10px 0 15px;
-    margin-left: -5px;
+    padding: 0 20px 0 20px;
+    margin-left: -10px;
     font-weight: bold;
   }
 
   header nav {
     float: center;
-    margin: 0.5% 0 1% 25%;
+    margin: 0.5% 0 1% 30%;
   }
 
   header a:hover {
@@ -42,83 +41,83 @@
   }
 
   #showcase {
-    min-height: 500px;
-    background: url("../img/showcaseX1.jpg");
+    min-height: 400px;
+    background: url("../img/showcase.jpg");
     color: #ffffff;
   }
 
   #showcase h1 {
-    margin-top: 20px;
-    font-size: 60px;
+    margin-top: 65px;
+    font-size: 85px;
     margin-bottom: 10px;
     text-align: center;
   }
 
   #showcase p {
-    font-size: 18px;
-    text-align: justify;
+    font-size: 20px;
+    text-align: center;
     max-width: 800px;
-    padding-left: 5%;
+    padding-left: 15%;
   }
 
   #visit {
-    min-height: 350px;
-    background: url("../img/showcaseX1.jpg");
+    min-height: 400px;
+    background: url("../img/visit.jpg");
     color: #ffffff;
   }
 
   #visit h1 {
-    margin-top: 20px;
-    font-size: 60px;
+    margin-top: 65px;
+    font-size: 85px;
     margin-bottom: 10px;
     text-align: center;
   }
 
   #visit p {
-    font-size: 18px;
-    text-align: justify;
+    font-size: 20px;
+    text-align: center;
     max-width: 800px;
-    padding-left: 5%;
+    padding-left: 15%;
   }
 
   #exhibitions {
-    min-height: 340px;
-    background: url("../img/showcaseX1.jpg");
+    min-height: 400px;
+    background: url("../img/exhibitions.jpg");
     color: #ffffff;
   }
 
   #exhibitions h1 {
-    margin-top: 20px;
-    font-size: 50px;
+    margin-top: 65px;
+    font-size: 85px;
     margin-bottom: 10px;
     text-align: center;
   }
 
   #exhibitions p {
-    font-size: 18px;
-    text-align: justify;
+    font-size: 20px;
+    text-align: center;
     max-width: 800px;
-    padding-left: 5%;
+    padding-left: 15%;
   }
 
   #collections {
-    min-height: 360px;
-    background: url("../img/showcaseX1.jpg");
+    min-height: 400px;
+    background: url("../img/pic04.jpg");
     color: #ffffff;
   }
 
   #collections h1 {
-    margin-top: 20px;
-    font-size: 50px;
+    margin-top: 65px;
+    font-size: 85px;
     margin-bottom: 10px;
     text-align: center;
   }
 
   #collections p {
-    font-size: 18px;
-    text-align: justify;
+    font-size: 20px;
+    text-align: center;
     max-width: 800px;
-    padding-left: 5%;
+    padding-left: 15%;
   }
 
   #tagAbout {
@@ -142,30 +141,30 @@
   }
 
   #tagCurrent {
-    margin: 5% 0 2% 8%;
-    font-size: 25px;
+    margin: 5% 0 2% 10%;
+    font-size: 30px;
   }
 
   #tagUpcoming {
-    margin: 5% 0 2% 8%;
-    font-size: 25px;
+    margin: 5% 0 2% 10%;
+    font-size: 30px;
   }
 
   #tagPrevious {
-    margin: 5% 0 2% 8%;
-    font-size: 25px;
+    margin: 5% 0 2% 10%;
+    font-size: 30px;
   }
 
   .gridcontainer01 {
     display: grid;
-    grid-template-columns: 340px;
+    grid-template-columns: 50% 50%;
     background-color: #fff;
     color: #444;
   }
 
   .box01 {
-    margin-left: 30px;
-    max-width: 340px;
+    margin-left: 18%;
+    max-width: 480px;
     text-align: justify;
   }
 
@@ -184,55 +183,52 @@
   }
 
   .b01 {
-    grid-column: 1;
-    grid-row: 3;
-    margin-top: 8px;
-    margin-left: 30px;
-    margin-bottom: 10px;
-    padding: 3px;
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    margin-top: 4%;
+    padding: 1%;
   }
 
   .b01 img {
-    max-width: 144px;
-    padding-right: 5px;
+    max-width: 42.5%;
+    padding-right: 1%;
   }
 
   .b02 {
-    grid-column: 1;
-    grid-row: 4;
-    margin-top: 10px;
-    margin-left: 30px;
-    padding: 3px;
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    margin-top: 4%;
+    padding: 1%;
   }
 
   .b02 img {
-    max-width: 310px;
-    padding-right: 3px;
+    max-width: 87%;
+    padding-right: 1%;
   }
 
   .a03 {
-    grid-column: 1;
-    grid-rows: 3;
+    grid-column: 2;
+    grid-rows: 1;
   }
 
   .b03 {
     grid-column: 1;
     grid-row: 2;
-    margin: 5px 0 10px 30px;
+    margin: 3% 0 0 18%;
   }
 
   .b03 img {
-    max-width: 310px;
+    max-width: 82%;
   }
 
   .b04 {
-    grid-column: 1;
-    grid-row: 4;
-    margin: 5px 0 10px 30px;
+    grid-column: 2;
+    grid-row: 2;
+    margin: 3% 0 0 18%;
   }
 
   .b04 img {
-    max-width: 310px;
+    max-width: 82%;
   }
 
   table {
@@ -266,44 +262,43 @@
 
   .wrapper {
     display: grid;
-    grid-template-columns: 340px;
+    grid-template-columns: 40% 50%;
     color: black;
   }
 
   .box {
     color: black;
-    margin-left: 30px;
+    margin-left: 25%;
     text-align: justify;
   }
 
   .box h4 {
-    font-size: 15px;
+    font-size: 18px;
   }
 
   .a img {
-    max-width: 310px;
+    max-width: 100%;
   }
 
   .c img {
-    max-width: 310px;
+    max-width: 100%;
   }
 
   .e img {
-    max-width: 310px;
+    max-width: 100%;
   }
 
   .containerX {
     display: grid;
-    grid-template-columns: 340px;
+    grid-template-columns: 45% 45%;
     color: black;
-    margin-top: 20px;
+    margin-top: 6%;
   }
 
   .boxX {
     color: black;
-    margin-left: 30px;
-    margin-bottom: 10px;
-    margin-top: 20px;
+    margin-left: 25%;
+    margin-bottom: 12%;
     text-align: justify;
   }
 
@@ -313,17 +308,16 @@
   }
 
   .boxX img {
-    max-width: 310px;
+    max-width: 100%;
   }
 
   #logo {
     max-width: 90px;
-    margin-top: 10px;
   }
 
   footer {
     padding: 20px;
-    /* margin-top: 20px; */
+    margin-top: 20px;
     color: #ffffff;
     background-color: #780116;
     text-align: center;
